@@ -23,7 +23,7 @@
 			Note note = (Note)s.get(Note.class, noteId);
 			
 		%>
-		<div class= "container">
+		<div class= "container mt-5">
 			<h1 style= "text-align: center;">Edit your note </h1>
 			<form action="EditServlet" method="post">
 				<input type="hidden" value="<%= note.getId() %>" name= "noteId">
